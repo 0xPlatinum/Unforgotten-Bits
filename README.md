@@ -32,6 +32,8 @@ I decide to enter the "irclogs" directory, as a log directory might contain some
 Here we have our main character Yone chatting it up with someone named "avidreader".
 Yone tells us he is using the program steghide, as well as the password 'akalibardzyratrundle'. He also mentions the encryption being used, we might be able to decrypt something later with this information. Lets move on to some more logs!
 
+# The Logging Directories
+
 ![image](https://user-images.githubusercontent.com/98354876/228303974-48b27469-cc84-43ca-b92b-5a128cdfabfc.png)
 
 ...They are all league of legends logs. After reading them all, the only thing I gained was a boredom. There was nothing useful, and nothing worth showing here.
@@ -44,6 +46,8 @@ However, nothing that stands out here either.
 Since there are no more logs, we can move on to some other directories
 
 Thats right, its time to explore the Mail directory!
+
+# The Mail Directories
 
 ![image](https://user-images.githubusercontent.com/98354876/228305447-a9907128-071e-489f-9b50-04934d7af0bb.png)
 
@@ -72,6 +76,8 @@ It appears our friends Yone was learning a bit of cryptography. he first searche
 
 Our final directory we havent checked out is "gallery"
 
+# The Gallery Directory
+
 ![image](https://user-images.githubusercontent.com/98354876/228308597-078858f3-50d9-4316-a623-af0bedd8d9c6.png)
 
 Four bmp files (Old image files basically). The images when opened dont seem important, just weird looking images. However, remember that conversation we got earlier about steghide? Why not try using it on the image files! Using steg hide on the image files 1, 2, and 3 with the password 'akalibardzyratrundle' (remember we got that from the conversation as well) and we get something from three of the files! We end up getting these three files, titled 
@@ -92,6 +98,8 @@ It was at this point I was stumped. I had zero clue what to do from here after g
 Question becomes.. what the hell do we do with this information? yea so what, yone combined two LoL names, what does that do for us?
 It was at this point me and my team decided that the 7.bmp file is likely our end goal, and we clearly need a new password for it.
 We tried all words in the "notes" files, and nothing worked. We tried the same password, keywords from the chat logs, etc, and it all failed.
+
+# Desperation
 
 This was the point I got desparate and did the thing all desperate people do. I ran "strings" on the disk image and grepped for "password"
 And... it worked! I actually found something!
@@ -128,6 +136,8 @@ After not getting a step further for a while, i made this meme
 
 to help calm our insanity and hair pulling.
 
+# Digging through sand until we find treasure.
+
 And then, one Thursday afternoon, I found something.
 I had decided out of desperation to open the disk image in Sublime text and read everything ***manually***. Maybe strings got rid of something it didnt consider a string, who knows. Eventually, I had found where the notes were stored in the image viewing it from Sublime. Except.. something else was there as well
 
@@ -143,10 +153,11 @@ SirSquibbins thought maybe we reverse the binary, starting from the golden ratio
 
 Three days go by, after testing and testing and testing, with no results.
 
+# Persistance is the key to success
 
-Until cool, calm, dark, afternoon. 
+One cool, calm, dark, afternoon. 
 
-Monday, at 9:15pm, Flipout obtained something. He had began decoding the binary bits, and managed to extract "salt=".
+At 9:15pm on a Monday, Flipout obtained something. He had began decoding the binary bits, and managed to extract "salt=".
 
 ![image](https://user-images.githubusercontent.com/98354876/228317612-afa3beea-7105-4d6b-b4bd-acac5485acf6.png)
 
