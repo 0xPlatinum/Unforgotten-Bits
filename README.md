@@ -21,7 +21,7 @@ Entering that directory, we get just three notes.
 
 ![image](https://user-images.githubusercontent.com/98354876/228299350-d38745e3-effe-4824-b49b-10d7601bd418.png)
 
-Wow, all of this makes complete...ly no sense. What the hell does any of this mean? Who takes notes like this? The third note is the most interesting, due to it *sounding* like a potential start to something important? Maybe a password, maybe a hidden file, or maybe its the beginning of a ritual to summon Cthulhu. Who knows. Lets just keep this in mind and continue exploring the other directories.
+Wow, all of this makes completely no sense. What the hell does any of this mean? Who takes notes like this? The third note is the most interesting, due to it *sounding* like a potential start to something important? Maybe a password, maybe a hidden file, or maybe its the beginning of a ritual to summon Cthulhu. Who knows. Lets just keep this in mind and continue exploring the other directories.
 
 ![image](https://user-images.githubusercontent.com/98354876/228302271-48572fc6-0fc5-407d-b37c-3e2274f164d3.png)
 
