@@ -87,7 +87,7 @@ Four bmp files (Old image files basically). The images when opened dont seem imp
 
 The fourth file, 7.bmp, actually failed to decode. So we ignored it for now and put it on the back of our mind.
 
-When printing the contents of the three files, they gave garbage. Seems they are encoded after all. Well, no issue, we can try to use the AES information we recieved in that same conversation in an attempt to decode it! Now, Im no good with cryptography, I know nothing about it; However, my team does! My teammate SirSquibbins wrote a quick decryptor script (will be provided later if he approves) and decrypted the secret files! Aha! Surely, this must contain some hint somewhere, nobody would encode something for no reason!
+When printing the contents of the three files, they gave garbage. Seems they are encrypted after all. Well, no issue, we can try to use the AES information we recieved in that same conversation in an attempt to decode it! Now, Im no good with cryptography, I know nothing about it; However, my team does! My teammate SirSquibbins wrote a quick decryptor script (will be provided later if he approves) and decrypted the secret files! Aha! Surely, this must contain some hint somewhere, nobody would encrypt something for no reason!
 
 ![image](https://user-images.githubusercontent.com/98354876/228310363-ea199121-3906-4149-8e92-b284f9d997aa.png)
 
@@ -149,7 +149,7 @@ After some back and fourth discussion with SirSquibbins, Flipout50, me, and anot
 
 ![image](https://user-images.githubusercontent.com/98354876/228316724-f9fe65a0-f949-44f9-bc93-ca08f91d168c.png)
 
-SirSquibbins thought maybe we reverse the binary, starting from the golden ratio base, since that seems to match up with our binary strings (Atleast it *looks* like it).
+SirSquibbins thought maybe we reverse the binary string we got, starting from the golden ratio base, since that seems to match up with our binary strings (Atleast it *looks* like it).
 
 Three days go by, after testing and testing and testing, with no results.
 
@@ -161,7 +161,7 @@ At 9:15pm on a Monday, Flipout obtained something. He had began decoding the bin
 
 ![image](https://user-images.githubusercontent.com/98354876/228317612-afa3beea-7105-4d6b-b4bd-acac5485acf6.png)
 
-And finally... We had obtained another encryptor.
+And finally... We had obtained another key, iv, and salt.
 The flag was obtained by decrypting the ledger.enc with the new information we have, and we were finally finished.
 
 GGs, Pico, a tough challenge, but we finally solved it. Just took us a bit, yknow?
